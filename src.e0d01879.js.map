@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;AACA,aADA,QAAA,oBACA,IAAA,EAAA,EAAA,QAAA,wBAAA,SAAA,EAAA,GAAA,OAAA,GAAA,EAAA,WAAA,EAAA,CAAA,QAAA","file":"src.e0d01879.js","sourceRoot":"../src","sourcesContent":["import './sass/main.scss';\nimport switcher from './js/color-switcher';\n"]}
