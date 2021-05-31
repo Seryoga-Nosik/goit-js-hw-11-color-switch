@@ -3,6 +3,9 @@ const colors = ['#FFFFFF', '#2196F3', '#4CAF50', '#FF9800', '#009688', '#795548'
 const startBtn = document.querySelector('[data-action="start"]');
 const stopBtn = document.querySelector('[data-action="stop"]');
 
+startBtn.addEventListener('click', onStart);
+stopBtn.addEventListener('click', onStop);
+
 stopBtn.disabled = true;
 document.body.style.backgroundColor = '#000';
 
@@ -25,6 +28,3 @@ function onStop() {
   stopBtn.disabled = true;
   document.body.style.backgroundColor = '#000';
 }
-
-startBtn.addEventListener('click', onStart);
-stopBtn.addEventListener('click', onStop);
